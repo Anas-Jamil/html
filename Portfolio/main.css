@@ -1,0 +1,37 @@
+html{
+    background-color: #b9b8b8;
+}
+
+
+#headers{
+    background-color: #a8a8a7;
+    font-family: 'Oswald', sans-serif;
+    padding: 25px;
+    word-spacing: 200px;
+
+}
+#About{
+    color: #414140;
+}
+#Skills{
+    color: #414140;
+}
+#Projects{
+    color: #414140;
+}
+#GitHub{
+    color: #414140;
+}
+#About:hover{
+    color: black;
+}
+#Skills:hover{
+    color: black;
+}
+#Projects:hover{
+    color: black;
+
+}
+#GitHub:hover{
+    color: black;
+}
