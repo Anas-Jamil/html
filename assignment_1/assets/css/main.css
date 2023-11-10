@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsla(0, 0%, 22%, 0.897);
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+input{
+    height: 30px;
+    background-color: hsla(0, 0%, 29%, 0.897);
+    border: 1px solid black;
+    color: hsl(0, 0%, 87%);
+}
+select{
+    height: 30px;
+    background-color: hsla(0, 0%, 29%, 0.897);
+    border: 1px solid black;
+    color: hsl(0, 0%, 87%);
+
+}
+button {
+    height: 30px;
+    background-color: hsla(0, 0%, 29%, 0.897);
+
+}
+table.table_1{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:hsl(0, 1%, 61%);
+    bottom: 45px;
+    height: 50%;
+    right: 2%;
+
+
+}
+table, th, td {
+    border-collapse: collapse;
+}
+button {
+    position: relative;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    width: 50px;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    left: 10%;
+    transition: all 0.3s ease 0s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+
+}
+button:hover {
+    background-color: rgb(114, 114, 113);
+    transform: translateY(-2px);
+}
+.to_do{
+    width: 100%;
+    max-width: 650px;
+    background: hsl(0, 1%, 61%);
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.to_do h2 {
+    height: 100px;
+    text-align: center;
+}
+.first_in{
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.second_in{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.third_in{
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+td {
+    color: black; 
+    font-weight: bold;
+}
+tr{
+    height: 50px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
